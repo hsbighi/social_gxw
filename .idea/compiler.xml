@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="socialgxw-eureka-server" />
-        <module name="socialgxw-eureka-user" />
-        <module name="socialgxw-eureka-oder" />
+        <module name="socialgxw-eureka-chat_service" />
+        <module name="socialgxw-gateway-zuul" />
+        <module name="socialgxw-eureka-customer_center" />
+        <module name="socialgxw-eureka-message_service" />
+        <module name="socialgxw-eureka-content_service" />
         <module name="socialgxw-hystrix-dashboard" />
       </profile>
     </annotationProcessing>
@@ -19,9 +22,12 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="microservice-eureka-server" options="-parameters" />
-      <module name="socialgxw-eureka-oder" options="-parameters" />
+      <module name="socialgxw-eureka-chat_service" options="-parameters" />
+      <module name="socialgxw-eureka-content_service" options="-parameters" />
+      <module name="socialgxw-eureka-customer_center" options="-parameters" />
+      <module name="socialgxw-eureka-message_service" options="-parameters" />
       <module name="socialgxw-eureka-server" options="-parameters" />
-      <module name="socialgxw-eureka-user" options="-parameters" />
+      <module name="socialgxw-gateway-zuul" options="-parameters" />
       <module name="socialgxw-hystrix-dashboard" options="-parameters" />
     </option>
   </component>

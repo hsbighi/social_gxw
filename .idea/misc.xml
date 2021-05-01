@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/socialgxw-eureka-customer_center/pom.xml" />
+        <option value="$PROJECT_DIR$/socialgxw-eureka-message_service/pom.xml" />
       </list>
     </option>
   </component>
