@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>socialgxw-gateway-zuul</artifactId>
+    <artifactId>microservice-eureka-gateway</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -17,19 +17,31 @@
     </properties>
 
     <dependencies>
-        <!--添加阿里 zuul API网关 驱动-->
+
+        <!--添加zuul API网关 驱动-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
-            <version>2.2.1.RELEASE</version>
         </dependency>
-
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-            <version>3.0.2</version>
         </dependency>
+
+        <!--web组件-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!--断容器 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+
+
+
     </dependencies>
 
 </project>

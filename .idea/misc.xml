@@ -8,7 +8,13 @@
         <option value="$PROJECT_DIR$/microservice-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/socialgxw-eureka-customer_center/pom.xml" />
         <option value="$PROJECT_DIR$/socialgxw-eureka-message_service/pom.xml" />
+        <option value="$PROJECT_DIR$/socialgxw-eureka-gateway/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/socialgxw-gateway-zuul/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">

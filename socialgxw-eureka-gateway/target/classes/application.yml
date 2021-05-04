@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: microservice-eureka-gateway  #指定应用名称
+server:
+  port: 8008   # 指定该Eureka 实现的端口号
+eureka:
+  instance:
+    prefer-ip-address: true  # 是否显示主机的IP
+    ip-address: 127.0.0.1
+  client:
+    registry-fetch-interval-seconds: 5
+    service-url:
+      defaultZone:  http://localhost:8761/eureka/ # 指定Eureka服务端地址
+
+
+zuul:
+  routes:
+    order:
+      path: /order/**
+      url: order

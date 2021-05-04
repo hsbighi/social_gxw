@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="socialgxw-eureka-server" />
+        <module name="socialgxw-eureka-gateway" />
         <module name="socialgxw-eureka-chat_service" />
-        <module name="socialgxw-gateway-zuul" />
         <module name="socialgxw-eureka-customer_center" />
         <module name="socialgxw-eureka-message_service" />
         <module name="socialgxw-eureka-content_service" />
@@ -17,18 +17,20 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservice-eureka-server" target="8" />
+      <module name="socialgxw-gateway-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="microservice-eureka-server" options="-parameters" />
-      <module name="socialgxw-eureka-chat_service" options="-parameters" />
-      <module name="socialgxw-eureka-content_service" options="-parameters" />
-      <module name="socialgxw-eureka-customer_center" options="-parameters" />
-      <module name="socialgxw-eureka-message_service" options="-parameters" />
-      <module name="socialgxw-eureka-server" options="-parameters" />
+      <module name="socialgxw-eureka-chat_service" options="" />
+      <module name="socialgxw-eureka-content_service" options="" />
+      <module name="socialgxw-eureka-customer_center" options="" />
+      <module name="socialgxw-eureka-gateway" options="" />
+      <module name="socialgxw-eureka-message_service" options="" />
+      <module name="socialgxw-eureka-server" options="" />
       <module name="socialgxw-gateway-zuul" options="-parameters" />
-      <module name="socialgxw-hystrix-dashboard" options="-parameters" />
+      <module name="socialgxw-hystrix-dashboard" options="" />
     </option>
   </component>
 </project>

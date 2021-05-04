@@ -1,3 +1,6 @@
+spring:
+  application:
+    name: microservice-eureka-user  #指定应用名称
 server:
   port: 8000  #指定该Eureka 实现的端口号
 eureka:
@@ -6,7 +9,5 @@ eureka:
   client:
     service-url:
       defaultZone:  http://localhost:8761/eureka/ # 指定Eureka服务端地址
-spring:
-  application:
-    name: microservice-eureka-user  #指定应用名称
+
 

@@ -4,25 +4,25 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 /**
  * create by wtp
- * DATE:2021/4/28
- * 启动类
+ * DATE:2021/5/4
  **/
 @SpringBootApplication
 @EnableDiscoveryClient   //消息注册 客户端 消息接受者
 @EnableHystrix //开启断容器功能
-public class Application_User {
+@EnableZuulProxy    // 开启服务网关
+public class Application_Gateway {
 
 
     public static void main(String[] args) {
 
-        SpringApplication.run(Application_User.class,args);
+        SpringApplication.run(Application_Gateway.class,args);
     }
 
     //创建RestTemplate
