@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/socialgxw-eureka-chat_service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/socialgxw-eureka-chat_service/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/socialgxw-eureka-content_service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/socialgxw-eureka-content_service/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/socialgxw-eureka-customer_center/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/socialgxw-eureka-customer_center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialgxw-comment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialgxw-consumer/socialgxw-consumer-article_manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialgxw-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialgxw-eureka-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialgxw-eureka-config-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/socialgxw-eureka-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/socialgxw-eureka-gateway/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/socialgxw-eureka-message_service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/socialgxw-eureka-message_service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/socialgxw-eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/socialgxw-eureka-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/socialgxw-hystrix-dashboard/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/socialgxw-hystrix-dashboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialgxw-producer/socialgxw-producer-article_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialgxw-producer/socialgxw-producer-article_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialgxw-producer/socialgxw-producer-chat_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialgxw-producer/socialgxw-producer-chat_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialgxw-producer/socialgxw-producer-content_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialgxw-producer/socialgxw-producer-content_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialgxw-producer/socialgxw-producer-message_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialgxw-producer/socialgxw-producer-message_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialgxw-producer/socialgxw-producer-user_service/src/main/java" charset="UTF-8" />
   </component>
 </project>

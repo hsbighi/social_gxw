@@ -2,17 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="socialgxw-eureka-server" />
         <module name="socialgxw-eureka-gateway" />
-        <module name="socialgxw-eureka-chat_service" />
-        <module name="socialgxw-eureka-customer_center" />
-        <module name="socialgxw-eureka-message_service" />
-        <module name="socialgxw-eureka-content_service" />
+        <module name="socialgxw-producer-article_service" />
+        <module name="socialgxw-eureka-config-server" />
+        <module name="socialgxw-producer-message_service" />
+        <module name="socialgxw-comment" />
+        <module name="socialgxw-producer-content_service" />
+        <module name="socialgxw-consumer-article_manager" />
+        <module name="socialgxw-producer-chat_service" />
+        <module name="socialgxw-entity" />
         <module name="socialgxw-hystrix-dashboard" />
+        <module name="socialgxw-producer-user_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,14 +29,21 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="microservice-eureka-server" options="-parameters" />
-      <module name="socialgxw-eureka-chat_service" options="" />
-      <module name="socialgxw-eureka-content_service" options="" />
-      <module name="socialgxw-eureka-customer_center" options="" />
-      <module name="socialgxw-eureka-gateway" options="" />
-      <module name="socialgxw-eureka-message_service" options="" />
-      <module name="socialgxw-eureka-server" options="" />
+      <module name="socialgxw-comment" options="-parameters" />
+      <module name="socialgxw-consumer" options="-parameters" />
+      <module name="socialgxw-consumer-article_manager" options="-parameters" />
+      <module name="socialgxw-entity" options="-parameters" />
+      <module name="socialgxw-eureka-config-server" options="-parameters" />
+      <module name="socialgxw-eureka-gateway" options="-parameters" />
+      <module name="socialgxw-eureka-server" options="-parameters" />
       <module name="socialgxw-gateway-zuul" options="-parameters" />
-      <module name="socialgxw-hystrix-dashboard" options="" />
+      <module name="socialgxw-hystrix-dashboard" options="-parameters" />
+      <module name="socialgxw-producer" options="-parameters" />
+      <module name="socialgxw-producer-article_service" options="-parameters" />
+      <module name="socialgxw-producer-chat_service" options="-parameters" />
+      <module name="socialgxw-producer-content_service" options="-parameters" />
+      <module name="socialgxw-producer-message_service" options="-parameters" />
+      <module name="socialgxw-producer-user_service" options="-parameters" />
     </option>
   </component>
 </project>

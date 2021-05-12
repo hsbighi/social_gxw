@@ -1,0 +1,23 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: socialgxw-eureka-config-server
+  cloud:
+    config:
+      server:
+        git:
+          #uri:  https://gitee.com/shuaidawang/springcloud-config.git #https 需要配用户名和密码
+          #username: shuaidawang
+          #password: 1
+          uri:  https://gitee.com/hs-gxw/social_config_server.git #ssh 需要配置公钥
+          search-paths: #搜索目录
+            - social_config_server
+          username: 892805180@qq.com
+          password: meixinhai121!
+      label: master #分支
+#eureka配置
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://localhost:8761/eureka/ # 指定Eureka服务端地址
